@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Adamina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Abel", sans-serif;
+  font-family: "Adamina", serif;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background-color: rgb(123, 149, 170);
+  padding-bottom: 20px;
+  width: 100%;
+  position: fixed;
+}
+.list_nav {
+  padding-left: 80px;
+}
+.nav-item {
+  padding-left: 10px;
+}
+.nav-button {
+  font-size: 17px;
+  border: none;
+  margin-left: 600px;
+  background-color: transparent;
+}
+.nav-button:hover {
+  border: 1px solid black;
+}
+.sec1_content {
+  padding-top: 160px;
+}
+.sec1_content h2 {
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  text-align: justify;
+}
+.sec1_content p {
+  padding-top: 20px;
+  color: white;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  line-height: 28px;
+}
+.sec1-type {
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.sect1_button {
+  background-color: aliceblue;
+}
+.section1 {
+  background-color: rgb(123, 149, 170);
+  height: 700px;
+  position: relative;
+  background-image: url(Assest/Images/bg.png);
+}
+
+.sec2_content1 {
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+  outline: #dae7db solid 10px;
+  margin-top: 60px;
+  padding: 40px;
+  background-color: rgb(123, 149, 170);
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 100px;
+}
+.section2 h1 {
+  margin-top: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+.section2 span {
+  font-weight: 500;
+  color: rgb(123, 149, 170);
+}
+.section2_img {
+  margin: 0px 0px 100px 200px;
+}
+.sec2_btn {
+  color: white;
+  margin-left: 200px;
+  border-radius: 3px;
+  width: 140px;
+  height: 50px;
+  background-color: rgb(123, 149, 170);
+}
+.sec2_btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.section3 {
+  background-color: rgb(123, 149, 170);
+  height: 700px;
+  /* background-image: url(Assest/Images/bg.png); */
+}
+.section3_img {
+  margin-top: 30px;
+}
+.sect3-con2 {
+  margin-top: 70px;
+  color: rgb(41, 30, 30);
+  outline: rgb(255, 255, 255) solid 20px;
+  border: 1px solid rgb(50, 65, 78);
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.sect3-con2 h5,
+h3,
+h4,
+.sect3-con2_1 {
+  padding-top: 20px;
+}
+.sect3-con2 p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.sect3-con2 h3 {
+  color: white;
+}
+.sect3-con2_1 {
+  display: flex;
+  padding: 50px 30px 0px 100px;
+}
+#box1 {
+  text-align: center;
+  flex-basis: 100px;
+}
+#box1 h2 {
+  margin-left: 20px;
+}
+.sect3-btn {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+}
+.sect3-btn:hover {
+  border: 1px solid black;
+}
+
+/* section4 */
+.section4 h2 {
+  padding-top: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+.section4 span {
+  color: rgb(123, 149, 170);
+  font-weight: 600;
+}
+.section4 p {
+  padding-left: 330px;
+  padding-right: 280px;
+}
+.list {
+  align-content: space-between;
+  padding-top: 60px;
+  list-style-type: none;
+}
+.list3 {
+  padding-top: 60px;
+  list-style-type: none;
+}
+.break {
+  color: black;
+  padding-left: 100px;
+}
+.section5 {
+  background-image: url(Assest/Images/section5.jpg);
+  background-attachment: contain;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* section6 */
+.section6 {
+  color: aliceblue;
+
+  background-image: url(Assest/Images/bg.png);
+  background-color: rgb(123, 149, 170);
+}
+.section6 h3 {
+  color: black;
+  text-align: center;
+}
+.section6 span {
+  font-weight: 200;
+}
+.sect {
+  text-align: center;
+  padding-left: 100px;
+}
+.cart1 {
+  /* background-color: rgb(123, 149, 170); */
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  color: black;
+  margin-bottom: 20px;
+}
+.cart1:hover {
+  box-shadow: black 0px 13px 27px -5px;
+}
+.cart1_1 {
+  font-size: 16px;
+}
+.cart_button {
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.cart_button:hover {
+  background-color: rgb(255, 255, 255);
+}
+/* section7 */
+.section7 {
+  color: black;
+  margin-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+.section7 h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+.section7 p {
+  text-align: center;
+}
+.section7_button {
+  padding-top: 2%;
+  width: 44%;
+  /* border: none; */
+  height: 90px;
+  margin: auto;
+}
+.form-control {
+  border-radius: 10px;
+}
+#btnGroupAddon {
+  background-color: rgb(202, 214, 225);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding-left: 4%;
+  width: 20%;
+  font-size: 1.1rem;
+  position: relative;
+}
+.footer {
+  background-color: rgb(123, 149, 170);
+  /* height: 700px; */
+  background-image: url(Assest/Images/bg.png);
+  padding-bottom: 30px;
+}
+footer h3 {
+  padding-top: 100px;
+}
+.card1 p {
+  color: #dae7db;
+}
